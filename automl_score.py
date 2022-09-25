@@ -13,8 +13,11 @@ def init():
 
 
 def run(data):
-    test = json.loads(data)
-    # test = test.get("Inputs").get("data").get("message")
-#    input_data = test["Inputs"]["data"][0]
-    df = pd.DataFrame.from_dict(test["Inputs"]["data"])
-    return model.predict(df)
+    try: 
+        test = json.loads(data)
+        df = pd.DataFrame.from_dict(test['Inputs']['data'])
+        return json.dumps({"result":model.predict(df).tolist()})
+    except Exception as e:
+        error = str(e)
+        return json.dumps({"error": error})
+
