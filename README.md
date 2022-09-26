@@ -50,9 +50,9 @@ automl_settings = {
     "enable_early_stopping": True,
     "max_concurrent_iterations": 5,
     "experiment_timeout_hours": 0.25,
-    "featurization": 'auto',
+    "featurization": 'auto'
 }
-<br>
+<br><br>
 automl_config = AutoMLConfig(
     task = 'classification',
     compute_target = compute_target,
