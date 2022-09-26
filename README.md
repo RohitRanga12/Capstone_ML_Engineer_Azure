@@ -43,8 +43,8 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 
 ### Settings and Configuration
 
-<code>
 '''
+<code>
 automl_settings = {
     "n_cross_validations": 2,
     "primary_metric": 'accuracy',
@@ -61,8 +61,8 @@ automl_config = AutoMLConfig(
     label_column_name = 'Category',
     **automl_settings
 )
-'''
 </code>
+'''
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
