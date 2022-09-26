@@ -1,7 +1,9 @@
 ## Project Title
-- Capstone Project - Azure Machine Learning Engineer
+
+Capstone Project - Azure Machine Learning Engineer
 
 ## Project Description
+
 - In this project, I utilise my learning from the Udacity Nanodegree
 - I create two models:
 
@@ -12,7 +14,12 @@
 - This project demonstrates my ability to use an external dataset in my workspace, train a model using the different tools available in the AzureML framework as well as my ability to deploy the model as a web service
 
 ## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
+
+- First create a workspace in AzureML
+- Then create a compute instance depending on budget
+- Upload the dataset (csv) file into Datastore and register it with the name 'capstone-spam-dataset'
+- Upload all files in the project into the Notebooks tab
+- Run all cells in automl.ipynb and hyperparameter_tuning.ipynb
 
 ## Dataset
 
