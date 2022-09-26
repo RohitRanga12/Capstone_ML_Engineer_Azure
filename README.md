@@ -47,9 +47,17 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 
 
 ### Results
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+What are the results you got with your automated ML model? What were the parameters of the model? 
+- Best AutoML model was "Stack Ensemble", with accuracy of 98.79%
+
+How to improve results? 
+- Dataset was imbalanced, hence balancing that could have given better results
+- If we allow Deep Learning models within AutoML, it could lead to better results
+
+<img src="screenshots/best_run_automl_run_id.png" width=500 height=500></img>
+<img src="screenshots/run_details_automl.png" width=500 height=500></img>
+
 
 # 4) Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
