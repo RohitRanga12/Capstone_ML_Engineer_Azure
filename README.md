@@ -23,13 +23,17 @@ Capstone Project - Azure Machine Learning Engineer
 - Upload all files in the project into the Notebooks tab
 - Run all cells in automl.ipynb and hyperparameter_tuning.ipynb
 
-## Dataset
+# Dataset
 
 ### Overview
-*TODO*: Explain about the data you are using and where you got it from.
+
+We are using a Spam classification dataset obtained from kaggle.
 
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+
+- This task is a multi-class text classification problem. Specifically binary text classification since we have only 2 classes - spam and ham
+- For AutoML model, features are extracted automatically
+- For Hyperdrive model, we are using TF-IDF as features 
 
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
