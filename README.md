@@ -49,10 +49,10 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 
 ### Results
 
-What are the results you got with your automated ML model? What were the parameters of the model? 
+<b>What are the results you got with your automated ML model? What were the parameters of the model?</b>
 - Best AutoML model was "Stack Ensemble", with accuracy of 98.79%
 
-How to improve results? 
+<b>How to improve results?</b>
 - Dataset was imbalanced, hence balancing that could have given better results
 - If we allow Deep Learning models within AutoML, it could lead to better results
 
