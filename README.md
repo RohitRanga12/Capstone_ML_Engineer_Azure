@@ -36,7 +36,8 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 - For Hyperdrive model, we are using TF-IDF as features 
 
 ### Access
-*TODO*: Explain how you are accessing the data in your workspace.
+
+- The data can be accessed from the Datastore using Dataset.get_by_name(ws, name)
 
 # 3) Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
