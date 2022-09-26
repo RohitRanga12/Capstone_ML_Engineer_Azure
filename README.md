@@ -1,4 +1,4 @@
-# Project 
+# 1) Project 
 
 ### Project Title
 
@@ -23,7 +23,7 @@ Capstone Project - Azure Machine Learning Engineer
 - Upload all files in the project into the Notebooks tab
 - Run all cells in automl.ipynb and hyperparameter_tuning.ipynb
 
-# Dataset
+# 2) Dataset
 
 ### Overview
 
