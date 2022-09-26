@@ -43,7 +43,7 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 
 ### Settings and Configuration
 
-<img src="screenshots/automl_config.png" width=100 height=100></img>
+<img src="screenshots/automl_config.png" width=500 height=500></img>
 
 
 ### Results
