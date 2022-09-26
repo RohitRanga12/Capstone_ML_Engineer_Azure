@@ -1,8 +1,11 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
-# Your Project Title Here
-
-*TODO:* Write a short introduction to your project.
+# Project Title
+- Capstone Project for Azure Machine Learning Engineer
+- In this project, I utilise my learning from the Udacity Nanodegree
+- I create two models: 
+            - one using AutoML
+            - one customized model with hyperparameters tuned using HyperDrive
+- I then compare the performance of both the models and deploy the best performing model
+- This project demonstrates my ability to use an external dataset in my workspace, train a model using the different tools available in the AzureML framework as well as my ability to deploy the model as a web service
 
 ## Project Set Up and Installation
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
