@@ -55,8 +55,8 @@ How to improve results?
 - Dataset was imbalanced, hence balancing that could have given better results
 - If we allow Deep Learning models within AutoML, it could lead to better results
 
-<img src="screenshots/best_run_automl_run_id.png" width=500 height=500></img>
-<img src="screenshots/run_details_automl.png" width=500 height=500></img>
+<img src="screenshots/best_run_automl_run_id.png" width=700 height=700></img>
+<img src="screenshots/run_details_automl.png" width=700 height=700></img>
 
 
 # 4) Hyperparameter Tuning
