@@ -19,15 +19,15 @@ Capstone Project - Azure Machine Learning Engineer
 
 - First create a workspace in AzureML
 - Then create a compute instance depending on budget
-- Upload the dataset (csv) file into Datastore and register it with the name 'capstone-spam-dataset'
+- Upload the dataset (csv) file into Datastore and register it with the name "capstone-spam-dataset"
 - Upload all files in the project into the Notebooks tab
-- Run all cells in automl.ipynb and hyperparameter_tuning.ipynb
+- Run all cells in "automl.ipynb" and "hyperparameter_tuning.ipynb"
 
 # 2) Dataset
 
 ### Overview
 
-We are using a Spam classification dataset obtained from kaggle.
+We are using a Spam classification dataset obtained from kaggle "spam-ham-dataset.csv"
 
 ### Task
 
