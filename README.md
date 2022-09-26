@@ -1,9 +1,10 @@
 # Project 
-## Title
+
+### Project Title
 
 Capstone Project - Azure Machine Learning Engineer
 
-## Description
+### Project Description
 
 - In this project, I utilise my learning from the Udacity Nanodegree
 - I create two models:
@@ -14,7 +15,7 @@ Capstone Project - Azure Machine Learning Engineer
 - I then compare the performance of both the models and deploy the best performing model
 - This project demonstrates my ability to use an external dataset in my workspace, train a model using the different tools available in the AzureML framework as well as my ability to deploy the model as a web service
 
-## Set Up and Installation
+### Set Up and Installation
 
 - First create a workspace in AzureML
 - Then create a compute instance depending on budget
