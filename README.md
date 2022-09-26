@@ -37,7 +37,7 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 
 ### Access
 
-- The data can be accessed from the Datastore using Dataset.get_by_name(ws, name)
+- The data can be accessed from the Datastore using <code>Dataset.get_by_name(ws, name)</code>
 
 # 3) Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
