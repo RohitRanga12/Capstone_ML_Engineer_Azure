@@ -1,5 +1,7 @@
-# Project Title
-- Capstone Project for Azure Machine Learning Engineer
+## Project Title
+- Capstone Project - Azure Machine Learning Engineer
+
+## Project Description
 - In this project, I utilise my learning from the Udacity Nanodegree
 - I create two models:
 
