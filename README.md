@@ -43,24 +43,7 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 
 ### Settings and Configuration
 
-<code>
-automl_settings = {
-    "n_cross_validations": 2,
-    "primary_metric": 'accuracy',
-    "enable_early_stopping": True,
-    "max_concurrent_iterations": 5,
-    "experiment_timeout_hours": 0.25,
-    "featurization": 'auto'
-}
-<br/>
-automl_config = AutoMLConfig(
-    task = 'classification',
-    compute_target = compute_target,
-    training_data = training_dataset,
-    label_column_name = 'Category',
-    **automl_settings
-)
-</code>
+<img src="screenshots/automl_config.png"></img>
 
 
 ### Results
