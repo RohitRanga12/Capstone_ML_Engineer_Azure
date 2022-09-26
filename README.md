@@ -63,8 +63,16 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 <hr>
 
 # 4) Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
+<b>What kind of model did you choose for this experiment and why?<b> 
+- I chose a Logistic Regression model because I wanted to build a simple baseline model for this project
+
+<b>Give an overview of the types of parameters and their ranges used for the hyperparameter search</b>
+- Its parameters are C and max_iter
+<code>
+"C": choice(0.01, 0.001, 0.1, 1),
+"max_iter": choice(50,100)
+<code>
 
 ### Results
 *TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
