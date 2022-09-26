@@ -43,8 +43,9 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 
 ### Settings and Configuration
 
+<hr>
 <img src="screenshots/automl_config.png" width=500 height=500></img>
-
+<hr>
 
 ### Results
 
@@ -55,9 +56,11 @@ How to improve results?
 - Dataset was imbalanced, hence balancing that could have given better results
 - If we allow Deep Learning models within AutoML, it could lead to better results
 
-<img src="screenshots/best_run_automl_run_id.png" width=700 height=700></img>
-<img src="screenshots/run_details_automl.png" width=700 height=700></img>
-
+<hr>
+<img src="screenshots/best_run_automl_run_id.png" width=800 height=800></img>
+<hr>
+<img src="screenshots/run_details_automl.png" width=800 height=800></img>
+<hr>
 
 # 4) Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
