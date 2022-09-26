@@ -52,6 +52,8 @@ automl_settings = {
     "experiment_timeout_hours": 0.25,
     "featurization": 'auto'
 }
+<br></br>
+<br></br>
 
 automl_config = AutoMLConfig(
     task = 'classification',
