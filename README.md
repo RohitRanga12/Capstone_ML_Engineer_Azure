@@ -38,7 +38,7 @@ We are using a Spam classification dataset obtained from kaggle.
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
 
-## Automated ML
+# 3) Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
 
 ### Results
@@ -46,7 +46,7 @@ We are using a Spam classification dataset obtained from kaggle.
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
-## Hyperparameter Tuning
+# 4) Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
 
@@ -55,14 +55,12 @@ We are using a Spam classification dataset obtained from kaggle.
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
-## Model Deployment
+# 5) Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
-## Screen Recording
+# 6) Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 - A working model
 - Demo of the deployed  model
 - Demo of a sample request sent to the endpoint and its response
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
