@@ -57,9 +57,9 @@ How to improve results?
 - If we allow Deep Learning models within AutoML, it could lead to better results
 
 <hr>
-<img src="screenshots/best_run_automl_run_id.png" width=800 height=800></img>
+<img src="screenshots/best_run_automl_run_id.png"></img>
 <hr>
-<img src="screenshots/run_details_automl.png" width=800 height=800></img>
+<img src="screenshots/run_details_automl.png"></img>
 <hr>
 
 # 4) Hyperparameter Tuning
