@@ -76,7 +76,16 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 
 
 ### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
+
+<b>What are the results you got with your model? What were the parameters of the model?</b>
+- The best model had accuracy of 96.91%
+- Parameters were C=1 and max_iter=50
+
+<b>How could you have improved it?</b>
+- Balancing the imbalanced dataset
+- Deep Learning models such as BERT, LSTM, etc. could have given better results
+- We could have used better feature engineering techniques such as word2vec, doc2vec, transformer-embeddings, etc.
+
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
