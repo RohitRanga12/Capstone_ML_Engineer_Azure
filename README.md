@@ -86,8 +86,13 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 - Deep Learning models such as BERT, LSTM, etc. could have given better results
 - We could have used better feature engineering techniques such as word2vec, doc2vec, transformer-embeddings, etc.
 
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+<hr>
+<img src="screenshots/best_run_hyperdrive_run_id.png"></img>
+<hr>
+<img src="screenshots/run_details_hyperdrive.png"></img>
+<hr>
+<img src="screenshots/best_run_hyperdrive_hyperparameters.png"></img>
+<hr>
 
 # 5) Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
