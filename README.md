@@ -44,34 +44,44 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 
 ### Settings and Configuration
 n_cross_validations: 4
-            - We want to perform 4-fold cross validation, i.e. training data is split into 4 folds/groups, 1 group is used as validation set, while the remaining 3 groups are used for training. This is repeated 4 times, with a different group used as a validation set each time
+
+            We want to perform 4-fold cross validation, i.e. training data is split into 4 folds/groups, 1 group is used as validation set, while the remaining 3 groups are used for training. This is repeated 4 times, with a different group used as a validation set each time
 
 task = "classification" 
-            - We are performing multi-class classification, specifically binary classification
+
+            We are performing multi-class classification, specifically binary classification
 
 label_column_name = "Category" 
-            - We want the ML model to predict this column value
+
+            We want the ML model to predict this column value
 
 experiment_timeout_hours: 0.25 
-            - We want the AutoML experiment to run for maximum 15 min
+
+            We want the AutoML experiment to run for maximum 15 min
 
 primary_metric: "accuracy"
-            - We want to use accuracy as the metric during model training for optimization. 
+            
+            We want to use accuracy as the metric during model training for optimization. 
 
 enable_early_stopping: True
-            - We want to enable early termination during the AutoML experiment if the score is not improving in the short term
+            
+            We want to enable early termination during the AutoML experiment if the score is not improving in the short term
 
 featurization: 'auto'
-            - As part of preprocessing, we want data guardrails and featurization steps to be done automatically
+            
+            As part of preprocessing, we want data guardrails and featurization steps to be done automatically
 
 max_concurrent_iterations: 5
-            - Number of concurrent child runs allowed for the AutoML experiment
+            
+            Number of concurrent child runs allowed for the AutoML experiment
 
 compute_target
-            - The compute target on which we want this AutoML experiment to run is specified
+            
+            The compute target on which we want this AutoML experiment to run is specified
 
 training_data = training_dataset
-            - training_dataset is passed because it contains the data to be used for training the model
+            
+            training_dataset is passed because it contains the data to be used for training the model
 
 <hr>
 <img src="screenshots/automl_config.png" width=500 height=500></img>
