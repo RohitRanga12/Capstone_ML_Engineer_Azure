@@ -116,3 +116,4 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 - Demo of a sample request sent to the endpoint and its response
 </b>
 
+<a href="https://youtu.be/R4moaIpWWZ4">Click here to view screencast</a>
