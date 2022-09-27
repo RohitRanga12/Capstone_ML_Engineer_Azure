@@ -98,6 +98,12 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 
 # 5) Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+- The deployed model was a Stack Ensemble model created in the AutoML experiment, since it gave the best accuracy from all experiments
+<hr>
+<img src="screenshots/endpoint_active.png"></img>
+<hr>
+<img src="screenshots/deployment_endpoint_testing.png"></img>
+<hr>
 
 # 6) Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
