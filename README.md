@@ -28,7 +28,7 @@ Capstone Project - Azure Machine Learning Engineer
 ### Overview
 
 We are using a Spam classification dataset obtained from kaggle "spam-ham-dataset.csv"
-<a href="https://www.kaggle.com/datasets/team-ai/spam-text-message-classification" target="_blank">Find it here</a>
+<a href="https://www.kaggle.com/datasets/team-ai/spam-text-message-classification" target="_blank">(Find it here)</a>
 
 ### Task
 
