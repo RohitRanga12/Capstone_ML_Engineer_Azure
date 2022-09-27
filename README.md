@@ -103,7 +103,11 @@ training_data = training_dataset
 - I chose a Logistic Regression model because I wanted to build a simple baseline model for the Hyperdrive component of this project
 
 <b>Give an overview of the types of parameters and their ranges used for the hyperparameter search</b>
+
 - Its parameters are C and max_iter
+            - C: Inverse of regularization strength; must be a positive float. Smaller values specify stronger regularization
+            - max_iter: Maximum number of iterations taken for the solvers to converge
+
 - Ranges:
 
             "C": choice(0.01, 0.001, 0.1, 1)
