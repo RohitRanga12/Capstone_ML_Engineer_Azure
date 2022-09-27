@@ -115,8 +115,10 @@ training_data = training_dataset
 <b>Give an overview of the types of parameters and their ranges used for the hyperparameter search</b>
 
 - Its parameters are C and max_iter
-            - C: Inverse of regularization strength; must be a positive float. Smaller values specify stronger regularization
-            - max_iter: Maximum number of iterations taken for the solvers to converge
+
+            C: Inverse of regularization strength; must be a positive float. Smaller values specify stronger regularization
+            
+            max_iter: Maximum number of iterations taken for the solvers to converge
 
 - Ranges:
 
