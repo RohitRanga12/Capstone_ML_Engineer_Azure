@@ -97,8 +97,11 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 <hr>
 
 # 5) Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+<b>Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.</b>
+
 - The deployed model was a Stack Ensemble model created in the AutoML experiment, since it gave the best accuracy from all experiments
+- The "automl.ipynb" notebook contains the code logic to query the deployed endpoint. To test your own input, enter your text in the "Message" field in the data, and run the cell to get back the prediction.
+
 <hr>
 <img src="screenshots/endpoint_active.png"></img>
 <hr>
