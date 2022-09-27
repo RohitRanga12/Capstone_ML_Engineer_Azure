@@ -28,6 +28,7 @@ Capstone Project - Azure Machine Learning Engineer
 ### Overview
 
 We are using a Spam classification dataset obtained from kaggle "spam-ham-dataset.csv"
+<a href="https://www.kaggle.com/datasets/team-ai/spam-text-message-classification">link</a>
 
 ### Task
 
@@ -85,6 +86,7 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 - Balancing the imbalanced dataset
 - Deep Learning models such as BERT, LSTM, etc. could have given better results
 - We could have used better feature engineering techniques such as word2vec, doc2vec, transformer-embeddings, etc.
+- We can try out other classical ML classification algorithms such as SVM, XGBoost, Random Forest, etc.
 
 <hr>
 <img src="screenshots/best_run_hyperdrive_run_id.png"></img>
