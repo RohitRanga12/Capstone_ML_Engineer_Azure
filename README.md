@@ -106,6 +106,12 @@ training_data = training_dataset
 <b>How to improve results?</b>
 - Dataset was imbalanced, hence balancing that could have given better results
 - If we allow Deep Learning models within AutoML, it could lead to better results
+- Try experimenting with other configurations and settings to see how they affect model performance and accuracy
+
+<b>What is the use of Rundetails widget?</b>
+
+- Represents a Jupyter notebook widget used to view the progress of model training
+- It is asynchronous and provides updates until training finishes
 
 <hr>
 <img src="screenshots/best_run_automl_run_id.png"></img>
