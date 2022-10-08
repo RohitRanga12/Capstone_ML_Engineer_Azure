@@ -42,6 +42,12 @@ We are using a Spam classification dataset obtained from kaggle "spam-ham-datase
 
 # 3) Automated ML
 
+### Why do we need Auto ML ?
+
+- Automated machine learning, also referred to as automated ML or AutoML, is the process of automating the time-consuming, iterative tasks of machine learning model development. 
+- It allows data scientists, analysts, and developers to build ML models with high scale, efficiency, and productivity all while sustaining model quality.
+- It enable organizations to quickly, accurately and consistently develop and apply machine learning models at scale across their operations to address real-world issues rather than relying solely on data scientists to hand-code models.
+
 ### Settings and Configuration
 n_cross_validations: 4
 
